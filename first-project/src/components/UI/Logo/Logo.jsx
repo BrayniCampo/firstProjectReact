@@ -1,10 +1,10 @@
 import React from "react";
-import logotipo from '../../../images/ima.jpg';
+import logotipo from '../../../images/pandora.jpg';
 
 export const Logo = () => {
   return (
     <>
-      <img src={logotipo} alt="Logotipo" />
+      <img className="img-logo" src={logotipo} alt="Logotipo" />
     </>
     
   )
