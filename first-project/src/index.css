@@ -125,6 +125,7 @@ footer{
   height: 100px;
   text-align: center;
   background-color: rgb(167, 216, 255);
+  font-family: 'Courier New', Courier, monospace;
   position: fixed;
   top: 80%;
   width: 100%;

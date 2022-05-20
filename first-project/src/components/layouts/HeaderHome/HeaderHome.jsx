@@ -33,8 +33,6 @@ export const HeaderHome = () => {
         <Ancla/>
         <ButtonColorPage/>
       </header>
-      
-     
     </>
    
   )
