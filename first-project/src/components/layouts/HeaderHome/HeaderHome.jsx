@@ -2,20 +2,39 @@ import React from 'react';
 import { Logo } from '../../UI/Logo/Logo';
 import { NavHome } from '../../UI/NavHome/NavHome';
 import { TittlePage } from '../../UI/TittlePage/TittlePage';
+import { Ancla } from '../../UI/Ancla/Ancla'
+import { Footer } from '../Footer/Footer';
+import { ButtonColorPage } from '../../pages/ButtonColorPage/ButtonColorPage';
+
 
 export const HeaderHome = () => {
   return (
-    <>
-      <header className='headerHome'>
-        <div className='divLogoAndTitle'>
+
+    /*
+       <div className='divLogoAndTitle'>
         <Logo/>
         <TittlePage
           style="title"
           textTittle='Mi primer página'
         />
         </div>
-        <NavHome/>
+    */
+    <>
+    
+      <header className='headerHome'>
+      <div className='divLogoAndTitle'>
+        
+        <Logo/>
+        <TittlePage
+          style="title"
+          textTittle='Mi primer página'
+        />
+        </div>
+        <Ancla/>
+        <ButtonColorPage/>
       </header>
+      
+     
     </>
    
   )

@@ -1,10 +1,12 @@
 import React from 'react';
-import { HeaderHome } from '../../layouts/HeaderHome/HeaderHome';
 
 export const Home = () => {
   return (
     <>
-      <HeaderHome/>
+      <div><h1>Home</h1>
+        <h2>AAAA</h2>
+      </div>
+
     </>
   
   )
