@@ -11,6 +11,8 @@ export const  Ancla = ({style, references, textAncla}) =>{
           <Link className='ancla' to="/aboutUS">ABOUT</Link>
           <Link className='ancla' to="/contactUS">CONTACT</Link>
           <Link className='ancla' to="/counterNumbers">USE STATE</Link>
+          <Link className='ancla' to="/counterImage">COUNTER IMAGE</Link>
+          <Link className='ancla' to="/apiRick">API DE RICK</Link>
         </nav>
       
       </>

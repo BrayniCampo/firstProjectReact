@@ -99,6 +99,7 @@ body{
   background-color:  rgb(70, 230, 161); 
   padding: 0.7rem;
 }
+
 .button2:hover{
   background-color:  rgb(167, 216, 255); 
   padding: 0.3rem;
@@ -118,7 +119,12 @@ body{
 }
 
 .dark{
-  background-color: black;
+  background-color: rgb(228, 64, 64);
+  color: white;
+}
+
+.dark-mode{
+  background-color: #000000;
   color: white;
 }
 footer{

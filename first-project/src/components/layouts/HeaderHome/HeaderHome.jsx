@@ -4,7 +4,7 @@ import { NavHome } from '../../UI/NavHome/NavHome';
 import { TittlePage } from '../../UI/TittlePage/TittlePage';
 import { Ancla } from '../../UI/Ancla/Ancla'
 import { Footer } from '../Footer/Footer';
-import { ButtonColorPage } from '../../pages/ButtonColorPage/ButtonColorPage';
+import { ButtonColorPage } from '../../UI/ButtonColorPage/ButtonColorPage';
 
 
 export const HeaderHome = () => {
